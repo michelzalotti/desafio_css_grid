@@ -1,2 +1,10 @@
 @import url("reset.css");
 @import url("header.css");
+@import url("nav.css");
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 240px auto;
+  padding: 16px 24px;
+  gap: 20px;
+}
